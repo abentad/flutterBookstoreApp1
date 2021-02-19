@@ -1,4 +1,3 @@
-import 'package:BookStoreApp1/pages/Home_page/home_screen.dart';
 import 'package:BookStoreApp1/pages/Onboarding_page/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -36,10 +35,10 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: initScreen == 0 || initScreen == null
-          ? OnBoardingScreen()
-          : HomeScreen(),
-      // home: OnBoardingScreen(),
+      // home: initScreen == 0 || initScreen == null
+      //     ? OnBoardingScreen()
+      //     : HomeScreen(),
+      home: OnBoardingScreen(),
     );
   }
 }

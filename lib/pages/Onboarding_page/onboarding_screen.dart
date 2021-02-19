@@ -1,5 +1,4 @@
-import 'package:BookStoreApp1/main.dart';
-import 'package:BookStoreApp1/pages/Home_page/home_screen.dart';
+import 'package:BookStoreApp1/pages/Login_page/login_screen.dart';
 import 'package:BookStoreApp1/pages/Onboarding_page/local_Widgets/animated_dots.dart';
 import 'package:BookStoreApp1/pages/Onboarding_page/local_Widgets/splashContent.dart';
 import 'package:BookStoreApp1/pages/Onboarding_page/local_models/splash_data.dart';
@@ -142,7 +141,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen>
                               onPressed: () {
                                 Navigator.of(context).pushReplacement(
                                   CupertinoPageRoute(
-                                    builder: (context) => HomeScreen(),
+                                    builder: (context) => LoginScreen(),
                                   ),
                                 );
                               },
